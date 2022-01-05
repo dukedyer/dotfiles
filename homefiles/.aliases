@@ -1,3 +1,9 @@
 #!/bin/sh
 
 alias vim=nvim
+alias n='nvim ~/.config/nvim/init.vim'
+alias cdn='cd ~/.config/nvim'
+alias cdm='cd ~/school/2021/fall/software/monorepo-dukedyer'
+alias cds='cd ~/school/2021/fall/'
+alias cdl='pushd ~/.config/nvim/lua'
+

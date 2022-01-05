@@ -2,10 +2,13 @@
 # wm independent hotkeys
 #
 
+super + ctrl + {e,d}
+	xinput {--enable, --disable} "SYNA8004:00 06CB:CD8B Touchpad"
+
+
 # Screen Lock
 super + shift + l
-	dm-tool switch-to-greeter
-
+  slock
 
 # volume
 super + shift {u,d,m}
@@ -80,7 +83,7 @@ super + {p,b,comma,period}
 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous window in the current desktop
-super + {_,shift + }c
+super + {Right, Left}
 	bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop in the current monitor

@@ -17,11 +17,7 @@
     pkgs.gh
     pkgs.stow
     pkgs.chromium
-    pkgs.pamixer
     pkgs.cmake
-    pkgs.teams
-    pkgs.polybar
-    pkgs.dunst
     pkgs.gh
   ];
 

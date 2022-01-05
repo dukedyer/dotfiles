@@ -1,0 +1,7 @@
+ls
+clear
+ls
+gcc hello.cpp -o hello && hello
+gcc hello.cpp -o hello && hello
+g++ hello.cpp -o hello && hello
+g++ hello.cpp -o hello && ./hello

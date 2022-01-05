@@ -33,9 +33,11 @@ export PATH=$PATH:'/home/duke/.local/bin'
 # Cargo Bin PATH
 export PATH=$PATH:'/home/duke/.cargo/bin'
 
-# source vars
-source ~/.vars
-source ~/.aliases
+# Native Haskell
+export PATH=/usr/local/bin:$PATH
+
+# source settings
+source ~/.settings
 
 
 startx
